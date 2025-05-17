@@ -13,7 +13,9 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 
 # For local dependencies use `local = path`. Path is relative to the package root
 # Local = { local = "../path/to" }
-Sui = { local = "E:/sui_projects/sui/crates/sui-framework/packages/sui-framework" }
+# Sui = { local = "E:/sui_projects/sui/crates/sui-framework/packages/sui-framework" }
+
+bassinet_coin = {local = "../bassinet_coin"}
 
 # To resolve a version conflict and force a specific version for dependency
 # override use `override = true`
@@ -21,8 +23,9 @@ Sui = { local = "E:/sui_projects/sui/crates/sui-framework/packages/sui-framework
 
 [addresses]
 bassinet = "0x0"
-creator = "0x1234"
-platform_provider = "0x1234"
+creator = "0x87e487cd6b1c7a53f91999eb3a5372ced201b614b26924ba4cc1d282a2240c07"
+platform_provider = "0x87e487cd6b1c7a53f91999eb3a5372ced201b614b26924ba4cc1d282a2240c07"
+bassinet_coin = "0xb24daa1045805db4a6806d0c69cf4f8ce1237c6242d0e7a66cdaa47f8f23d475"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
