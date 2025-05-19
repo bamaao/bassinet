@@ -1,4 +1,4 @@
-module bassinet::basinet;
+module bassinet::bassinet;
 use bassinet::bassinet_nft::{Self, Mint, BassinetNFT};
 use sui::sui::SUI;
 use std::string::{String};

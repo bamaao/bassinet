@@ -25,7 +25,7 @@ bassinet_coin = {local = "../bassinet_coin"}
 bassinet = "0x0"
 creator = "0x87e487cd6b1c7a53f91999eb3a5372ced201b614b26924ba4cc1d282a2240c07"
 platform_provider = "0x87e487cd6b1c7a53f91999eb3a5372ced201b614b26924ba4cc1d282a2240c07"
-bassinet_coin = "0xb24daa1045805db4a6806d0c69cf4f8ce1237c6242d0e7a66cdaa47f8f23d475"
+bassinet_coin = "0xf4b4edcf95840f6073384eb1db290d8c43966c2f5a6a998dcbdd24f0daa977bf"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
